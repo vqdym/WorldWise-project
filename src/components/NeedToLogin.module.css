@@ -1,0 +1,22 @@
+.NeedToLoginContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+}
+
+.btnLogin {
+  display: inline-block;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  transform: scale(1);
+  transition: all 0.2s;
+}

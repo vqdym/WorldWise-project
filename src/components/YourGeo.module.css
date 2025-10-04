@@ -1,0 +1,48 @@
+.yourGeoContainer {
+  background-color: var(--color-dark--2);
+  height: 30%;
+  padding: 1.4rem;
+  width: 85%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.yourGeoContainer p {
+  color: var(--color-light--3);
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 80%;
+}
+
+.inputWrapper input {
+  color: var(--color-dark--2);
+  padding: 0.6rem 1rem;
+  padding-right: 5rem;
+}
+
+.copyButton {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70%;
+  padding: 0 1rem;
+  background-color: #a4a4a44b;
+  border: none;
+  cursor: pointer;
+  color: var(--color-dark--2);
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.copyButton:hover {
+  background-color: #a4a4a48a;
+}
